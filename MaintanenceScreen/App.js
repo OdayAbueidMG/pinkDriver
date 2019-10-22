@@ -52,18 +52,18 @@ class App extends Component {
       <View style={styles.screen}>
         <Image style={{ width: 130, height: 100, marginBottom: 25, resizeMode: 'stretch' }} source={require('./pinklogo.png')} />
         <View style={styles.textContent}>
-          <Text style={{ fontSize: 21, textAlign: 'center', color: '#F41BED' }}>تم دمج برنامج Pink مع تطبيق Ride وسوف تكون خدمات Pink متوفرة من خلال تطبيق Ride</Text>
+          <Text style={{ fontSize: 21, textAlign: 'center', color: '#DC60D8' }}>تم دمج برنامج Pink مع تطبيق Ride وسوف تكون خدمات Pink متوفرة من خلال تطبيق Ride</Text>
         </View>
         <View style={styles.textContent}>
-          <Text style={{ fontSize: 21, textAlign: 'center', color: '#F41BED' }}>We are Migrating Pink Services to Ride App</Text>
+          <Text style={{ fontSize: 21, textAlign: 'center', color: '#DC60D8' }}>We are Migrating Pink Services to Ride App</Text>
         </View>
         {this.state.lunchingSoon ?
           <View style={styles.lunSoon}>
             <View style={styles.textContent}>
-              <Text style={{ fontSize: 21, textAlign: 'center', color: '#F41BED' }}>ترقبوا اطلاق البرنامج قريبا ً</Text>
+              <Text style={{ fontSize: 21, textAlign: 'center', color: '#DC60D8' }}>ترقبوا اطلاق البرنامج قريبا ً</Text>
             </View>
             <View style={styles.textContent}>
-              <Text style={{ fontSize: 21, textAlign: 'center', color: '#F41BED' }}>Lunching soon</Text>
+              <Text style={{ fontSize: 21, textAlign: 'center', color: '#DC60D8' }}>Lunching soon</Text>
             </View>
             <TouchableOpacity onPress={this.openFacebook}>
               <Image style={{ width: 50, height: 50, marginBottom: 25, resizeMode: 'stretch' }} source={require('./facebook.png')} />
@@ -71,10 +71,10 @@ class App extends Component {
           </View>
           : <View style={styles.lunSoon}>
             <View style={styles.textContent}>
-              <Text style={{ fontSize: 21, textAlign: 'center', color: '#F41BED' }}>حمل التطبيق الان</Text>
+              <Text style={{ fontSize: 21, textAlign: 'center', color: '#DC60D8' }}>حمل التطبيق الان</Text>
             </View>
             <View style={styles.textContent}>
-              <Text style={{ fontSize: 21, textAlign: 'center', color: '#F41BED' }}>Download Now</Text>
+              <Text style={{ fontSize: 21, textAlign: 'center', color: '#DC60D8' }}>Download Now</Text>
             </View>
             <TouchableOpacity onPress={this.openGooglePlay}>
               <Image style={{ width: 150, height: 65, marginBottom: 25, resizeMode: 'stretch' }} source={require('./googleplay.png')} />
